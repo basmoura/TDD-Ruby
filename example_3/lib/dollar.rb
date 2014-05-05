@@ -5,8 +5,7 @@ class Dollar
     @amount = amount
   end
 
-  def equals(obj = Object.new)
-    dollar = obj
+  def equals(dollar = Object.new)
     @amount == dollar.amount
   end
 end
